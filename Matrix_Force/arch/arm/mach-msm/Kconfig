@@ -1430,6 +1430,12 @@ config MSM_MPDEC
 	  This enables kernel based multi core control.
 	  (up/down hotplug based on load)
 
+config CONFIG_GPU_OC
+	bool "GPU OC Freq's"
+	default y
+	help
+	  foobar
+
 if CPU_FREQ_MSM
 
 config MSM_CPU_FREQ_SET_MIN_MAX
