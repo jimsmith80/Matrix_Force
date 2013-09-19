@@ -243,7 +243,17 @@ config CPU_FREQ_GOV_LIONHEART
         depends on CPU_FREQ
         help
         'Lionheart' - A brave and agile conservative-based governor.
-	  
+
+config CPU_FREQ_GOV_LULZACTIVE
+	tristate "'lulzactive' cpufreq gov"
+	help
+	  foobar	  
+
+config CPU_FREQ_GOV_HYPER
+	tristate "'hyper' cpufreq gov"
+	help
+	  foobar
+
 config CPU_FREQ_GOV_BADASS
 	tristate "'badass' cpufreq policy governor"
 	select CPU_FREQ_TABLE
